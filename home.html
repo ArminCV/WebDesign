@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E3 Highlights</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="valdez_final_project_css.css">
+</head>
+
+<body>
+		<ul>
+			<li><a href="#hl0">TOP</a></li>
+			<li><a href="#hl1">HIGHLIGHT1</a></li>
+			<li><a href="#hl2">HIGHLIGHT2</a></li>
+			<li><a href="#hl3">HIGHLIGHT3</a></li>
+			<li><a href="#hl4">HIGHLIGHT4</a></li>
+			<li><a href="#hl5">HIGHLIGHT5</a></li>
+			<li><a href="#hl6">HIGHLIGHT6</a></li>
+			<li><a href="#hl7">HIGHLIGHT7</a></li>
+			<li><a href="#hl8">HIGHLIGHT8</a></li>
+			<li><a href="#hl9">HIGHLIGHT9</a></li>
+			<li><a href="#hl10">HIGHLIGHT10</a></li>
+		</ul>
+		<div id="container">
+		
+			<div id="hl0">
+				<img src="assets/e3.png" alt="E3 Logo" style="width:640px;height:400px;">
+				<h1>E3 2018 HIGHLIGHTS</h1>
+			</div>
+
+			<div id="hl1">
+				<div class="text_container"></div>
+				<h1>CYBERPUNK 2077</h1>
+
+			</div>
+			<div class="vid">
+				<iframe width="640" height="360" src="https://www.youtube.com/embed/8X2kIfS6fb8" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+
+			<div id="hl2">
+				<div class="text_container"></div>
+				<h1>DEATH STRANDING</h1>
+			</div>
+			<div class="vid">
+				<iframe width="640" height="360" src="https://www.youtube.com/embed/rP3UngLFou4" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+
+			<div id="hl3">
+				<div class="text_container"></div>
+				<h1>ANTHEM</h1>
+			</div>
+			<div class="vid">
+				<iframe width="640" height="360" src="https://www.youtube.com/embed/HB2AfxoaFJ0" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+
+			<div id="hl4">
+				<div class="text_container"></div>
+				<h1>FALLOUT 76</h1>
+			</div>
+			<div class="vid">
+				<iframe width="640" height="360" src="https://www.youtube.com/embed/M9FGaan35s0" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+
+			<div id="hl5">
+				<div class="text_container"></div>
+				<h1>THE LAST OF US: PART 2</h1>
+			</div>
+			<div class="vid">
+				<iframe width="640" height="360" src="https://www.youtube.com/embed/btmN-bWwv0A" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+
+			<div id="hl6">
+				<div class="text_container"></div>
+				<h1>SPIDER-MAN</h1>
+			</div>
+			<div class="vid">
+				<iframe width="640" height="360" src="https://www.youtube.com/embed/_Sn5x1aLrUY" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+
+			<div id="hl7">
+				<div class="text_container"></div>
+				<h1>KINGDOM HEARTS 3</h1>
+			</div>
+			<div class="vid">
+				<iframe width="640" height="360" src="https://www.youtube.com/embed/GWlKEM3m2EE" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+
+			<div id="hl8">
+				<div class="text_container"></div>
+				<h1>GHOST OF TSUSHIMA</h1>
+			</div>
+			<div class="vid">
+				<iframe width="640" height="360" src="https://www.youtube.com/embed/kSAvzeopPC8" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+
+			<div id="hl9">
+				<div class="text_container"></div>
+				<h1>ASSASSIN'S CREED:<br>ODYSSEY</br></h1>
+			</div>
+			<div class="vid">
+				<iframe width="640" height="360" src="https://www.youtube.com/embed/eSw6JeHge1Y" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+
+			<div id="hl10"><div class="text_container"></div>
+				<h1>SUPER SMASH BROS.<br>ULTIMATE</br></h1>
+			</div>
+			<div class="vid">
+				<iframe width="640" height="360" src="https://www.youtube.com/embed/qMF_7fQW_f8" frameborder="10" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+
+		</div>
+
+<script type="text/javascript">
+	var modal = document.querySelector(".modal");
+    var trigger = document.querySelector(".trigger");
+    var closeButton = document.querySelector(".close-button");
+
+    function toggleModal() {
+        modal.classList.toggle("show-modal");
+    }
+
+    function windowOnClick(event) {
+        if (event.target === modal) {
+            toggleModal();
+        }
+    }
+
+    trigger.addEventListener("click", toggleModal);
+    closeButton.addEventListener("click", toggleModal);
+    window.addEventListener("click", windowOnClick);
+	
+</script>
+
+	</body>
+</html>
